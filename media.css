@@ -1,0 +1,141 @@
+@media screen and (max-width: 1300px) {
+  .card {
+    gap: 15px;
+  }
+  .image {
+    z-index: 5;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .waviy {
+    font-size: 32px;
+  }
+  .card > h1:nth-child(3) {
+    font-size: 30px;
+  }
+  .card > p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .card {
+    width: 60%;
+    min-height: 636px;
+    padding: 20px 50px;
+    gap: 29px;
+  }
+  .waviy {
+    font-size: 30px;
+  }
+  .image {
+    z-index: 5;
+    width: 30%;
+    border-radius: 50%;
+  }
+  .image > img {
+    z-index: 5;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 100vw;
+  }
+  .card > h1:nth-child(3) {
+    color: #fff;
+    background-color: #000;
+    z-index: 10;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .card > p {
+    z-index: 10;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .icon > h1 {
+    font-size: 25px;
+    margin-top: 13px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .card {
+    width: 80%;
+    min-height: 636px;
+    padding: 20px 50px;
+  }
+  .waviy {
+    font-size: 25px;
+  }
+  .card > h1:nth-child(3) {
+    color: #fff;
+    background-color: #000;
+    z-index: 10;
+    font-size: 26px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .image {
+    z-index: 5;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .card > p {
+    z-index: 10;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .containera {
+    padding: 10px;
+  }
+  .card {
+    width: 90%;
+    min-height: 650px;
+    top: 4vh;
+  }
+  .waviy {
+    font-size: 25px;
+  }
+  .card > h1:nth-child(3) {
+    color: #fff;
+    background-color: #000;
+    z-index: 10;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .image {
+    z-index: 5;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .card > p {
+    z-index: 10;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card {
+    top: 58px;
+    bottom: 0;
+    width: 100%;
+  }
+  .card > p {
+    z-index: 10;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .image {
+    z-index: 5;
+    width: 50%;
+    border-radius: 50%;
+  }
+}
